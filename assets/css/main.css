@@ -1,0 +1,189 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: 54;
+}
+
+.header .btn-prime {
+  background-color: #FBBD18;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header .btn-second {
+  background-color: #e0e0e0;
+  color: #464646;
+  font-weight: 600;
+}
+
+.header .filter {
+  margin-left: 60px;
+}
+
+.header .active {
+  background-color: #48D17F;
+  color: #fff;
+}
+
+.choice {
+  margin-top: 60px;
+}
+
+.choice .btn-second {
+  background-color: #e0e0e0;
+  color: #464646;
+  font-weight: 400;
+}
+
+.choice .active {
+  background-color: #48D17F;
+  color: #fff;
+}
+
+.scafol-card {
+  margin-top: 60px;
+}
+
+.scafol-card .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.scafol-card .card {
+  border: none;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.scafol-card .card .card-img-top {
+  border-radius: 4px;
+}
+
+.scafol-card .card-body {
+  padding: 7px;
+  margin-bottom: 0;
+}
+
+.scafol-card .card-body p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.scafol-card .card-body .text-1 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.scafol-card .card-body .text-2 {
+  font-weight: light;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.modal-scafol .modal .modal-content {
+  padding: 30px;
+}
+
+.modal-scafol .modal .modal-content .header-modal h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-scafol .modal .modal-content .header-modal p {
+  font-size: 15px;
+  color: #FBBD18;
+  font-weight: 600;
+}
+
+.modal-scafol .modal .modal-content .header-modal .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-scafol .modal .modal-content .header-modal .dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.modal-scafol .modal .modal-content .header-modal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.modal-scafol .modal .modal-content .header-modal .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.modal-scafol .modal .modal-content .header-modal .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.modal-scafol .modal .modal-content .header-modal .show {
+  display: block;
+}
+
+.modal-scafol .modal .modal-content .body-modal {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.modal-scafol .modal .modal-content .modal-date {
+  font-size: 13px;
+  color: #FBBD18;
+  font-weight: 500;
+}
+
+.modal-scafol .modal .modal-content img {
+  height: 90%;
+}
+
+.modal-scafol .modal .upload {
+  margin-top: 100px;
+  background-color: #F6F6F6;
+  width: auto;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.modal-scafol .modal .upload i {
+  color: #AFCEE1;
+  margin-top: 30px;
+}
+
+.modal-scafol .modal .upload p {
+  color: #707070;
+}
+
+.modal-scafol .modal .form-modal textarea {
+  background-color: #EEEEEE;
+  border: 1px solid #f6f6f6;
+}
+
+.modal-scafol .modal .form-modal select {
+  background-color: #F6F6F6;
+  border: 1px solid #f6f6f6;
+  font-size: 15px;
+  width: 19rem;
+}
+/*# sourceMappingURL=main.css.map */
